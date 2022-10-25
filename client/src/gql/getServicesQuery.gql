@@ -1,0 +1,13 @@
+query getServices {
+  getAll {
+    id
+    url
+    name
+    username
+    email
+    phone
+    password
+    twoFactorResetCodes
+    createTime
+  }
+}

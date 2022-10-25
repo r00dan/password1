@@ -1,0 +1,12 @@
+.root {
+  background: #000;
+  color: #fff;
+  border-radius: 1rem;
+  padding: .5rem 1rem;
+  border: 2px solid hotpink;
+  cursor: pointer;
+}
+
+.disabled {
+  border: 2px solid gray;
+}

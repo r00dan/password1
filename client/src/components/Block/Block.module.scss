@@ -1,0 +1,8 @@
+@import '../../assets/variables.scss';
+
+.root {
+  width: 100%;
+  border-radius: 1rem;
+  background-color: lighten($primary, 7);
+  padding: 1rem;
+}

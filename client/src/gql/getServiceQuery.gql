@@ -1,0 +1,13 @@
+query getService($id: String!) {
+  getById(id: $id) {
+    id
+    url
+    name
+    username
+    email
+    phone
+    password
+    twoFactorResetCodes
+    createTime
+  }
+}

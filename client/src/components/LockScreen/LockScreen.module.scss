@@ -1,0 +1,21 @@
+@import '../../assets/variables.scss';
+
+.root {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: $primary;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  max-width: 125px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  margin-bottom: 2rem;
+}

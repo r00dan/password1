@@ -1,0 +1,17 @@
+overwrite: true
+schema: "./schema.graphql"
+documents: "src/gql/*.gql"
+generates:
+  src/types/index.ts:
+    plugins:
+      - "typescript"
+      - "typescript-operations"
+      - "typescript-react-apollo"
+    config:
+      immutableTypes: true
+      skipTypename: true
+      documentVariableSuffix: "Variables"
+      operationResultSuffix: "ReturnData"
+  ./graphql.schema.json:
+    plugins:
+      - "introspection"

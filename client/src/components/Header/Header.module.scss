@@ -1,0 +1,10 @@
+.root {
+  display: grid;
+  grid-template-columns: 1fr 120px;
+  align-items: center;
+}
+
+.lock {
+  font-size: 2rem;
+  cursor: pointer;
+}

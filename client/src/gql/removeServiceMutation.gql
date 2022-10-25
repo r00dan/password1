@@ -1,0 +1,5 @@
+mutation removeService($id: String!) {
+  remove(id: $id) {
+    id
+  }
+}
